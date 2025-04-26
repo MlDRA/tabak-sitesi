@@ -1,52 +1,36 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>atolyehis</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atölye His</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome İkonlar için -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Font - Playfair Display -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>atolyehis</h1>
-    <nav>
-      <a href="#">Anasayfa</a>
-      <a href="#">Ürünler</a>
-      <a href="#">Hakkımızda</a>
-      <a href="#">İletişim</a>
-    </nav>
+  <header class="fade-in">
+    <h1>Atölye His</h1>
+    <p>Tabak tasarımlarıyla sanatı sofranıza taşıyoruz.</p>
   </header>
 
   <main>
-    <aside>
-      <h2>Kategoriler</h2>
-      <ul>
-        <li><a href="#">El Yapımı</a></li>
-        <li><a href="#">Desenli</a></li>
-        <li><a href="#">Vintage</a></li>
-        <li><a href="#">Günlük Kullanım</a></li>
-      </ul>
-    </aside>
+    <img src="tabak.jpg" alt="Özel tasarım tabak" class="main-image fade-in">
 
-    <section class="product-grid">
-      <article class="product-card">
-        <img src="https://i.imgur.com/XzvKnxA.jpeg" alt="Desenli Tabak" />
-        <h3>Desenli Seramik Tabak</h3>
-        <p>₺250</p>
-        <button>Sepete Ekle</button>
-      </article>
-
-      <article class="product-card">
-        <img src="https://i.imgur.com/yUz3R1X.jpeg" alt="El yapımı tabak" />
-        <h3>El Yapımı Tabak</h3>
-        <p>₺320</p>
-        <button>Sepete Ekle</button>
-      </article>
-    </section>
+    <div class="buttons fade-in">
+      <a href="https://www.instagram.com/senin_instagramin/" target="_blank" class="btn">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="mailto:seninmailin@gmail.com" class="btn">
+        <i class="fas fa-envelope"></i> İletişim
+      </a>
+    </div>
   </main>
-<div class="buttons">
-  <a href="https://www.instagram.com/atolyehis/" target="_blank" class="btn">Instagram</a>
-  <a href="mailto:seninmailin@gmail.com" class="btn">İletişim</a>
-</div>
+
+  <footer class="fade-in">
+    <p>&copy; 2025 Atölye His. Tüm hakları saklıdır.</p>
+  </footer>
 </body>
 </html>
